@@ -1,0 +1,247 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    /* border: solid; */
+    
+}
+nav{
+    background-color:rgb(245 235 220);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    position:fixed;
+    top:0px;
+    /* border: solid; */
+    box-shadow: rgba(15, 15, 16, 0.58) 0px 2px 5px -1px, rgba(0, 0, 0, 0.228) 0px 1px 3px -1px;
+}
+#bklogo{
+    height:22px;
+    margin-left:10px
+}
+#b{
+font-size: 20px;
+margin:0px 0px 0px 75px ;
+}
+#p{
+    position: absolute;
+    right:290px;
+    font-size: 18px;
+}
+#navbutt{
+    color:rgb(245 235 220);
+    border:none;
+    border-radius: 20px;
+    background-color: rgb(214 35 0);
+    padding:10px 20px;
+}
+#home{
+    background-color:rgb(245 235 220) ;
+    height:90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#hd1{
+    width:315px;
+    height:450px;
+    padding: 100px 0px 48px 0px;
+    /* border:solid; */
+    display: flex column;
+}
+#hd1 h1{
+    /* padding:0px 4px 0px 0px; */
+    color:#502314;
+    font-size: 60px;
+    font-weight:bolder;
+    font-family:sans-serif;
+    margin-bottom: 20px;
+
+
+}
+#hb1{
+    background-color: #D62300;
+    color:#FFF;
+    padding: 14px 16px;
+    width: 100%;
+    border:none;
+    display: block;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+#hb2{
+    padding: 14px 16px;
+    width: 100%;
+    border-color:#D62300;
+    display: block;
+    border-radius: 25px;
+    background-color:rgb(245 235 220)  ;
+    color:#D62300;
+    outline:solid 1px;
+    border:none;
+
+
+}
+
+#hd2{
+    width:630px;
+    height:450px;
+    margin-left: 20px;
+    padding: 100px 28px 48px 0px;
+
+}
+#img{
+    width:100%;
+}
+.fa-solid{
+    font-size: 15px;
+}
+
+#Cards{
+    display: flex;
+    flex-wrap: wrap;
+    /* border:solid; */
+    padding: 10px 10px 170px 10px;
+    background-color:rgb(245 235 220) ;
+    justify-content: center;
+    
+
+}
+.cardivs{
+    width:450px;
+    height: 400px;
+    color:#502314;
+    /* border:solid; */
+    margin:10px;
+    border-radius: 18px;
+    box-shadow: rgba(15, 15, 16, 0.58) 0px 2px 5px -1px, rgba(0, 0, 0, 0.228) 0px 1px 3px -1px;
+    background-color: #FFF;
+    display: flex column;
+    
+}
+
+.cardivs img{
+    border-radius: 18px 18px 0px 0px;
+    width: 100%;
+}
+
+.cardivs button{
+    padding: 8px 16px;
+    border-radius: 20px;
+    color:#D62300;
+    border-color: #D62300;
+    background-color: #FFF;
+    
+    outline:solid 1px;
+    border:none;
+    
+    font-weight: bold;
+}
+.cardivs a{
+    color: #502314;
+    margin-right: 200px;
+    
+}
+.cardivs h2,p,a{
+    margin:10px 20px;
+}
+.cardivs h2{
+    font-size: 24px;
+}
+.cardivs p,a{
+    font-size: 13px;
+}
+#ld1{
+    display: flex;
+    width:100%;
+    height: 80vh;
+    background-color:rgb(235 226 211);
+}
+#ld11{
+    width: 373px;
+    height: 431px;
+    margin-left: 100px;
+    /* border: solid; */
+}
+#ld12{
+    padding-top: 48px;
+    padding-bottom: 80px;
+    width:50%;
+    margin-left: 100px;
+    /* display: block; */
+}
+#big2{
+    width: 100%;
+}
+#hh1{
+    height: 50px;
+    font-size: 48px;
+    color: #502314;
+}
+#hh2{
+    width: 100%;
+    height: 100px;
+    font-size: 48px;
+    color: #502314;
+}
+.svgg{
+    width: 187px;
+    height: 55px;
+}
+#p1{
+    width: 100%;
+    margin: 32px 0px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(80, 35, 20);
+    /* text-align: left; */
+    line-height: 24px;
+}
+#ld2{
+    width: 100%;
+    height: 56px;
+    background-color: #502314;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.p23{
+    color: white;
+    display: inline;
+    font-size:13px;
+}
+#p3{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 64px;
+    background-color:rgb(235 226 211) ;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.fds{
+    
+    align-items: center;
+    display: flex column;
+    text-align: center;
+    color: #502314;
+}
+.pp{
+    margin-top: 0px;
+    font-size: 13px;
+}
+.null{
+    font-size: 19px;
+    margin: 5px 0px 0px 0px ;
+    
+}
